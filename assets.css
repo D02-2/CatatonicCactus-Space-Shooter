@@ -1,0 +1,71 @@
+
+.ufo {
+    background: url(./assets/PNG/ufoRed.png) center / contain no-repeat;
+
+    width: 6rem;
+    height: 6rem;
+}
+
+#ufo_1 {
+    position: absolute;
+    top: 20rem;
+    left: 0;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: ufo_flying 5s linear infinite;
+}
+
+#ufo_2 {
+    position: absolute;
+    top: 12rem;
+    left: 0;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: ufo_flying 5s linear infinite reverse;
+}
+
+@keyframes ufo_flying {
+    0% {
+        left: -30%;
+    }
+    100% {
+        left: 130%;
+    }
+}
+
+
+
+.meteor {
+    
+}
+
+#meteor_1 {
+    background: url(./assets/PNG/Meteors/meteorBrown_big4.png) center / contain no-repeat;
+
+    width: 8rem;
+    height: 8rem;
+}
+
+#meteor_2 {
+    background: url(./assets/PNG/Meteors/meteorBrown_big2.png) center / contain no-repeat;
+
+    width: 8rem;
+    height: 8rem;
+}
+
+.player {
+    position: absolute;
+    bottom: 4rem;
+    left: 28rem;
+
+    width: 8rem;
+    height: 8rem;
+
+    background: url(./assets/PNG/playerShip1_blue.png) center / contain no-repeat;
+}
+
+.bullet {
+    /* display: none; */
+    width: 4rem;
+    height: 4rem;
+
+    background: url(./assets/PNG/Lasers/laserBlue06.png) center / contain no-repeat;
+}

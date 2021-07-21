@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 8px;
+}
+
+body{
+ background: url(./assets/Backgrounds/black.png);
+}
+
+
+main {
+    width: 64rem;
+    height: 96rem;
+    margin: 3rem auto;
+
+    overflow: hidden;
+
+    background: url(./assets/Backgrounds/darkPurple.png);
+    box-shadow: 0 0 5px 3px rgb(34, 34, 34) inset;
+
+    position: relative;
+}
